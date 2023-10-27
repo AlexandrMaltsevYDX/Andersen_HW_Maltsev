@@ -6,6 +6,10 @@
   "module": "true",
   "type": "module",
   "scripts": {
-    "run" : "node index.js"
+    "run": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
   }
 }
