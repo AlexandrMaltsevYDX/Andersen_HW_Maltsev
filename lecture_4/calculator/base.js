@@ -5,4 +5,4 @@ export class BaseCalculator {
     validated(num) { return getInput(num) }
 }
 
-module.exports = BaseCalculator;
+// module.exports = BaseCalculator;
