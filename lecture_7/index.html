@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Секундомер и Таймер</title>
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <h1>Секундомер</h1>
+            <div class="time" id="stopwatch">00:00:00</div>
+            <button id="startButton">Старт</button>
+            <button id="stopButton">Стоп</button>
+            <button id="resetButton">Сброс</button>
+        </div>
+        <div class="timer">
+            <h1>Таймер</h1>
+            <input type="text" id="timerInput" placeholder="Время (секунды)">
+            <button id="setTimerButton">Установить</button>
+            <div class="time" id="timerDisplay">00:00:00</div>
+            <button id="startTimerButton">Старт</button>
+            <button id="stopTimerButton">Стоп</button>
+            <button id="resetTimerButton">Сброс</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
